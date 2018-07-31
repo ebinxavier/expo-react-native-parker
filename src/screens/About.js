@@ -8,7 +8,7 @@ export class AboutScreen extends React.Component{
      return  {
       title: 'About '+navigation.getParam("count",1),
       headerStyle: { 
-        backgroundColor: '#3d3', 
+        backgroundColor: '#000', 
         // textColor:"white"
       }, 
     }
