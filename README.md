@@ -4,7 +4,7 @@
 * [Installation](#installation)
 * [Available Scripts](#available-scripts)
 * [Custom Drawer/ Side menu](https://codeburst.io/custom-drawer-using-react-navigation-80abbab489f7)
-  
+* [Image Responsive](https://medium.com/the-react-native-log/tips-for-react-native-images-or-saying-goodbye-to-trial-and-error-b2baaf0a1a4d)  
   
 
 
