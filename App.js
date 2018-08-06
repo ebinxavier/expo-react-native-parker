@@ -1,5 +1,6 @@
 import React from 'react';
 import { Drawer } from './src/screens/Navigations'
+import Reducer from './src/redux/reducers'
 
 
 // import {  } from 'native-base';
@@ -8,6 +9,8 @@ import { Drawer } from './src/screens/Navigations'
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
+import { CHANGE_DRAWER_MENU} from './src/redux/actions'  
+const store = createStore(Reducer)
 
 
 
@@ -15,11 +18,16 @@ import { createStore } from 'redux';
 
 
 export default class App extends React.Component {
+
   render() {
+    store.subscribe(()=>{
+      console.log(store.getState());
+    })
+
     return (
-      // <Provider store={{}}>
+      <Provider store={store}>
         <Drawer />
-      // </Provider>
+      </Provider>
     );
   }
 }

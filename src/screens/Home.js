@@ -9,6 +9,7 @@ YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTIm
 
 
 export class HomeScreen extends React.Component {
+
     toggleDrawer = () => {
 
         console.log(this.props.navigationProps);
@@ -30,13 +31,13 @@ export class HomeScreen extends React.Component {
     }
 
     render() {
+
         return (
-            <View style={[styles.container, { backgroundColor: '#fff' }]}>               
+            <View style={[styles.container, { backgroundColor: '#fff' }]}>
                 <Text>Home Route1</Text>
                 <Btn title="about" onPress={() => {
                     this.props.navigation.navigate('About');
                 }} />
-
             </View>
         );
     }

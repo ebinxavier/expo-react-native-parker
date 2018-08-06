@@ -5,7 +5,7 @@ import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
 import { HomeScreen } from './Home';
 import { AboutScreen } from './About';
 import { SettingsScreen } from './Settings';
-import { SideMenu } from './Drawer';
+import SideMenu  from './Drawer';
 
 
 const Route = createStackNavigator({

@@ -1,0 +1,1 @@
+export const CHANGE_DRAWER_MENU = 'CHANGE_DRAWER_MENU';
